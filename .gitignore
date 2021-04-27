@@ -102,3 +102,9 @@ dist
 
 # TernJS port file
 .tern-port
+
+//my files and directories
+demo-core
+logger.js
+person.js
+test.js
