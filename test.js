@@ -1,7 +1,6 @@
-const Logger = require('./logger');
+var http = require('http');
 
-const logger = new Logger();
-logger.on('message', data => console.log('Called Listener', data));
-logger.golog("Hello node event");
-logger.golog("Hello hi");
-logger.golog("yup yup");
+http.createServer(function (req, res) {
+    res.writeHead(200);
+    res.end('Hello Hero Node')
+}).listen()
