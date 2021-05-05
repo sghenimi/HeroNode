@@ -104,7 +104,9 @@ dist
 .tern-port
 
 //my files and directories
+.vscode
 demo-core
 logger.js
 person.js
 test.js
+
